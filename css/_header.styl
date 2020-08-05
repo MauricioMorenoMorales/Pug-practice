@@ -1,43 +1,32 @@
-@import 'config.less';
+@import "_config.styl"
 
-body{
+body
      margin: 0;
-}
-.upper-header{
+.upper-header
      display: flex;
      justify-content: flex-end;
-     background-color: @azul-claro;
+     background-color: azul-claro;
      height: 70px;
      align-items: center;
-     li{
+     li
           list-style: none;
-          a{
+          a
                margin-left: 10px;
-               img{
+               img
                     height: 60px;
-               }
-          }
-     }
-}
-.lower-header{
+.lower-header
      height: 70px;
      display: flex;
      align-items: center;
      justify-content: space-between;
      padding: 0 10px;
-     .blog-icon{
-          figure{
+     .blog-icon
+          figure
                margin: 0;
-               img{
+               img
                     height: 70px;
-               }
-          }
-     }
-     .sobre-mi{
+     .sobre-mi
           padding-right: 10px;
-          a{
+          a
                font-size: 20px;
                color: black;
-          }
-     }
-}

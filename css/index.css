@@ -35,31 +35,31 @@ body {
 }
 .lower-header .sobre-mi a {
   font-size: 20px;
-  color: black;
+  color: #000;
 }
 main {
   height: calc(100vh - 140px);
-  background-image: url('../images/Cover.png');
+  background-image: url("../images/Cover.png");
   background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 main h1 {
   margin-top: -200px;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 80px;
+  color: #eee;
 }
 main a button {
-  background-color: rgba(71, 207, 172, 0.8);
+  background-color: #47cfac;
   height: 50px;
   width: 250px;
   border: none;
   font-size: 20px;
-  color: white;
+  color: #eee;
   font-weight: 700;
 }
