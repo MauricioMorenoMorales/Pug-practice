@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-html(lang="en")
-     head
-          meta(charset="UTF-8")
-          meta(name="viewport", content="width=device-width, initial-scale=1.0")
-          title Document
-          link(rel="stylesheet", href="../css/index.css")
-     body
-          include header.pug
+include ./components/_meta.pug
+block contenidos
+          include ./components/_header.pug
           main
                h1 Conoce las novedades y <br> noticias del mundo tech
                a(href="/")
