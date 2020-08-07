@@ -2,10 +2,10 @@
 @import "./stylus/_header.styl"
 
 .hero
-     display: grid
-     grid-template-columns: 2fr 1fr
-     background-color: claro-secundario
-     padding: 50px 170px
+     display                grid
+     grid-template-columns  2fr 1fr
+     background-color       claro-secundario
+     padding                50px 170px
      &__photo
           figure
                img
@@ -16,3 +16,26 @@
                a  
                     button 
                          button()
+
+main      
+     h2   
+          display: flex
+          justify-content: center
+
+.blogs
+     margin: 100px auto
+     max-width 1200px
+     .blogs-container
+          display: grid
+          grid-template-columns: 1fr 1fr 1fr
+          grid-gap: 15px
+          .blog-item
+               margin-bottom: 30px
+               figure
+                    margin: 0
+                    img  
+                         width: 100%
+               &__text
+                    a 
+                         button 
+                              button()

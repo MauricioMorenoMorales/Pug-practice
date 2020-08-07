@@ -63,3 +63,33 @@ body {
   border-radius: 5px;
   font-weight: 200;
 }
+main h2 {
+  display: flex;
+  justify-content: center;
+}
+.blogs {
+  margin: 100px auto;
+  max-width: 1200px;
+}
+.blogs .blogs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.blogs .blogs-container .blog-item {
+  margin-bottom: 30px;
+}
+.blogs .blogs-container .blog-item figure {
+  margin: 0;
+}
+.blogs .blogs-container .blog-item figure img {
+  width: 100%;
+}
+.blogs .blogs-container .blog-item__text a button {
+  width: 120px;
+  height: 35px;
+  border: 1px solid #47cfac;
+  color: #47cfac;
+  border-radius: 5px;
+  font-weight: 200;
+}
