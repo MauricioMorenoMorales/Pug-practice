@@ -1,0 +1,30 @@
+main h2 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid claro-secundario;
+  margin: 40px auto 70px;
+  width: 70%;
+}
+.blogs {
+  margin: 60px auto;
+  max-width: 1200px;
+}
+.blogs .blogs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.blogs .blogs-container .blog-item {
+  margin-bottom: 30px;
+}
+.blogs .blogs-container .blog-item figure {
+  margin: 0;
+}
+.blogs .blogs-container .blog-item figure img {
+  width: 100%;
+}
+@meda screen && (max-width: 700px) {
+  .blogs .blogs-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
