@@ -1,0 +1,115 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  margin: 0;
+}
+.upper-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #103a4b;
+  height: 70px;
+  align-items: center;
+}
+.upper-header li {
+  list-style: none;
+}
+.upper-header li a {
+  margin-left: 10px;
+}
+.upper-header li a img {
+  height: 60px;
+}
+.lower-header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.lower-header .blog-icon figure {
+  margin: 0;
+}
+.lower-header .blog-icon figure img {
+  height: 70px;
+}
+.lower-header .sobre-mi {
+  padding-right: 10px;
+}
+.lower-header .sobre-mi a {
+  font-size: 20px;
+  color: #111;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+}
+footer .extended-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #e6e9ed;
+  padding: 40px 0;
+}
+footer .extended-footer .container {
+  display: flex;
+  padding: 0 50px;
+}
+footer .extended-footer .container .item {
+  display: flex;
+}
+footer .extended-footer .container .item figure img {
+  width: 140px;
+}
+footer .extended-footer .container .item__content h2 {
+  text-decoration: underline;
+  font-weight: 600px;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+footer .extended-footer .container .item__content p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+footer h3 {
+  height: 100px;
+  background-color: #103a4b;
+  color: #eee;
+  border-top: 40px solid #47cfac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.hero {
+  background-color: #e6e9ed;
+  padding: 20px 20%;
+}
+.hero .hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-container figure img {
+  height: 230px;
+}
+.hero .hero-container .hero-text h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.projects {
+  margin-bottom: 100px;
+}
+.projects h4 {
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #e6e9ed;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.projects-container {
+  padding: 0 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}

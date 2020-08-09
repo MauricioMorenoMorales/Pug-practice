@@ -1,0 +1,35 @@
+@import "./stylus/_headers.styl"
+@import "./stylus/_config.styl"
+@import "./stylus/_extended-footer.styl"
+.hero
+     background-color: claro-secundario
+     padding: 20px 20%
+     .hero-container
+          display: flex
+          align-items: center
+          justify-content: center
+          figure
+               img 
+                    height: 230px
+          .hero-text
+               h2  
+                    font-size: 40px
+                    letter-spacing: 2px
+
+
+
+.projects
+     margin-bottom: 100px
+     h4   
+          font-size: 26px
+          display: flex
+          justify-content: center
+          border-bottom: 1px solid claro-secundario
+          width: 75%
+          margin: 0 auto
+          padding-top: 20px
+     &-container 
+          padding: 0 8%
+          display: grid
+          grid-template-columns: 1fr 1fr 1fr
+          grid-gap: 20px
