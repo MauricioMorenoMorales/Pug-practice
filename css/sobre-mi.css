@@ -50,6 +50,12 @@ body {
   .upper-header li a img {
     height: 45px;
   }
+  .lower-header {
+    padding: 2px;
+  }
+  .lower-header .blog-icon figure img {
+    height: 60px;
+  }
 }
 body {
   font-family: 'Oswald', sans-serif;

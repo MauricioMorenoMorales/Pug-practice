@@ -43,6 +43,23 @@ body {
   font-size: 20px;
   color: #111;
 }
+@media screen and (max-width: 340px) {
+  .upper-header {
+    justify-content: center;
+  }
+  .upper-header li a {
+    margin-left: 4px;
+  }
+  .upper-header li a img {
+    height: 45px;
+  }
+  .lower-header {
+    padding: 2px;
+  }
+  .lower-header .blog-icon figure img {
+    height: 60px;
+  }
+}
 main {
   height: calc(100vh - 140px);
   background-image: url("../images/Cover.png");
@@ -68,4 +85,38 @@ main a button {
   font-size: 20px;
   color: #eee;
   font-weight: 700;
+}
+@media screen and (max-width: 850px) {
+  main h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  main h1 {
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 550px) {
+  main h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  main a button {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 400px) {
+  main h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  main a button {
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+  }
 }

@@ -53,6 +53,12 @@ body {
   .upper-header li a img {
     height: 45px;
   }
+  .lower-header {
+    padding: 2px;
+  }
+  .lower-header .blog-icon figure img {
+    height: 60px;
+  }
 }
 .hero {
   display: grid;
@@ -125,6 +131,7 @@ main h2 {
 @media screen and (max-width: 700px) {
   .blogs .blogs-container {
     grid-template-columns: 1fr 1fr;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 440px) {
