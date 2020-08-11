@@ -96,6 +96,30 @@ footer h3 {
   align-items: center;
   margin: 0;
 }
+@media screen and (max-width: 800px) {
+  footer .extended-footer .container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer h3 {
+    padding: 20px 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 460px) {
+  footer .extended-footer .container {
+    padding: 0 10px;
+  }
+  footer .extended-footer .container .item figure {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  footer .extended-footer .container {
+    padding: 0 5px;
+  }
+}
 .hero {
   background-color: #e6e9ed;
   padding: 20px 20%;

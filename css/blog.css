@@ -93,6 +93,30 @@ footer h3 {
   align-items: center;
   margin: 0;
 }
+@media screen and (max-width: 800px) {
+  footer .extended-footer .container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer h3 {
+    padding: 20px 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 460px) {
+  footer .extended-footer .container {
+    padding: 0 10px;
+  }
+  footer .extended-footer .container .item figure {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  footer .extended-footer .container {
+    padding: 0 5px;
+  }
+}
 .hero {
   width: 100%;
   background-color: #e6e9ed;
@@ -112,4 +136,17 @@ footer h3 {
 .content h2 {
   font-size: 50px;
   margin-left: 20px;
+}
+@media screen and (max-width: 560px) {
+  .hero figure {
+    width: 100%;
+  }
+  .hero figure img {
+    width: 100%;
+    height: auto;
+  }
+  .content h2 {
+    font-size: 30px;
+    margin-left: 10px;
+  }
 }
