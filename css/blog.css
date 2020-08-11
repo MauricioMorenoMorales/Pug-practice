@@ -40,6 +40,17 @@ body {
   font-size: 20px;
   color: #111;
 }
+@media screen and (max-width: 340px) {
+  .upper-header {
+    justify-content: center;
+  }
+  .upper-header li a {
+    margin-left: 4px;
+  }
+  .upper-header li a img {
+    height: 45px;
+  }
+}
 footer .extended-footer {
   display: flex;
   justify-content: center;
