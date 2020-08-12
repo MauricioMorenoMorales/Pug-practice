@@ -1,6 +1,7 @@
 @import "./stylus/_headers.styl"
 @import "./stylus/_config.styl"
 @import "./stylus/_extended-footer.styl"
+
 .hero
      background-color: claro-secundario
      padding: 20px 20%
@@ -33,3 +34,16 @@
           display: grid
           grid-template-columns: 1fr 1fr 1fr
           grid-gap: 20px
+@media screen and (max-width 920px)
+     .hero
+          padding: 10%
+          .hero-container
+               flex-direction: column
+@media screen and (max-width 630px)
+     .projects
+          &-container 
+               grid-template-columns: 1fr 1fr
+@media screen and (max-width 460px)
+     .projects
+          &-container 
+               grid-template-columns: 1fr
